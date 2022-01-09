@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <title>Youtube Video Downloader</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5abd25f1fc.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div>
+        <div class="head">
+            <div class="htitle"> 
+                <h1 class="text heading"><i class="fab fa-youtube"></i> Youtube Video Downloader</h1>
+                <div class="rows">
+                    <a class="link" href="index.html"><i class="fas fa-home"></i>Home</a>
+        
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="form-group">
+                <form action="#" method="POST">
+                <label class="lform">ENTER URL OF YOUTUBE VIDEO</label>
+                <input class="inp-url" type="text" name="url1" placeholder="ENTER URL OF YT VIDEO"><br>
+                <button type="submit" name="button" class="lbtn"><i class="fas fa-download"></i> Download</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

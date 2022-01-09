@@ -1,0 +1,79 @@
+.heading{
+    color: #C84B31;
+    text-shadow: 2px 2px #FF94CC;
+    padding-left: 25px;
+   
+}
+.head{
+    padding : 10px ; 
+    background-color: #FFC947;
+}
+.link{
+    text-decoration: none;
+    font-size: 36px;
+    margin-left: 45px;
+    font-weight: bolder;
+    transition: 2s;
+}
+.link:hover{
+    text-decoration: none;
+    letter-spacing: 5px;
+    margin-left: 40px;
+    color: #03256C;
+}
+.content{
+    background-color: #3EDBF0;
+    height: 100vw;
+    padding-left: 15px;
+}
+label.lform{
+    color: #FFF5EB;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+.inp-url{
+    color: #F55C47;
+    display: block;
+    font-weight: bolder;
+    background-color: #FFED99;
+    width: 400px;
+    border-color: #FFD8CC;
+    border-radius: 25px;
+    padding-left: 15px;
+}
+.lbtn{
+    color: white;
+    font-size: 32px;
+    font-weight: bolder;
+    width: 250px;
+    background-color: #C84B31;
+    margin-left: 40%;
+    border-radius: 15px;
+    transition: 2s;
+}
+.lbtn:hover{
+    width: 300px;
+    background-color: #343F56;
+}
+@media screen and (max-width: 676px) {
+    .heading{
+        text-align: center;
+    }
+    .link{
+        margin-left: 0px;
+        text-align: center;
+        display: block;
+    }
+    .inp-url{
+        width: 300px;
+        margin-left: 0px;
+        display: block;
+    }
+    .lbtn{
+        margin-left: 0;
+        width: 300px;
+    }
+
+    
+}

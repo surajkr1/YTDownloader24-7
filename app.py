@@ -7,14 +7,15 @@ import glob
 from pytube import YouTube
 app = Flask(__name__)
 
-for name in glob.glob('Videos/*.mp4', recursive = True):
-    print(name)
-    os.remove(name)
+
 @app.route("/", methods=["POST","GET"])
 def homefnc():
     
     if request.method == "POST":
         youtube_url = request.form["url1"]
+        for name in glob.glob('Videos/*.mp4', recursive = True):
+            print(name)
+            os.remove(name)
         path = "Videos"
         local_download_path = YouTube(youtube_url).streams[1].download(path)
         fname = local_download_path
